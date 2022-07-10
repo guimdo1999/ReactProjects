@@ -1,0 +1,74 @@
+table {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  align-items: flex-start;
+  max-width: 900px;
+  width: 100%;
+  margin: 2rem auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Table Heading*/
+.headingTable {
+  padding: 400px;
+  margin: 2rem auto;
+}
+.heading {
+  color: #777e91;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.headingText {
+  padding-right: 20px;
+}
+
+/*Table Body*/
+.bodytr {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e6e8ec;
+}
+
+td {
+  color: #24262b;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  padding: 10px 14px;
+}
+
+.index {
+  color: #777e91;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
+.symbol {
+  font-weight: 600;
+  color: #24262b;
+  text-align: left;
+  padding-left: 40px;
+}
+.perc24 {
+  font-weight: 400;
+}
+.positivePerc {
+  color: #58bd7d;
+}
+.negativePerc {
+  color: #ff6838;
+}
+.priceValues {
+  color: #23262f;
+}
